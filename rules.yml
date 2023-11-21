@@ -1,0 +1,13 @@
+version: "2.0"
+
+rules:
+
+- rule: Say I don't no Exactly visit our official website"https://www.mrec.ac.in"
+  steps:
+  - intent: Do
+  - action: utter_do
+
+# - rule: Say 'I am a bot' anytime the user challenges
+#   steps:
+#   - intent: bot_challenge
+#   - action: utter_iamabot

@@ -1,0 +1,95 @@
+version: "2.0"
+
+nlu:
+  - intent: courses
+    examples: |
+      - what different courses are offered
+      - different courses provided by the university
+      - list of different courses
+      - list of different programs
+      - can you help me with the programs Chandigarh university offers
+      - different programs offered by the University
+      - different training programs offered
+
+  - intent: ask_placements
+    examples: |
+      - placement offers
+      - what are the previous placement offers?
+      - different placement offers offered to students
+      - different companies offers
+      - different placement offered
+      - previous placement offers
+      - what are the different placement offers offered to students
+      - student's placement offers
+
+  - intent: management_info
+    examples: |
+      - Who is the current president/dean/chancellor of the university?
+      - Tell me about the management team of the institution.
+      - What is the organizational structure of the university/college?
+      - Who is in charge of [specific department] department?
+      - Can you provide information about the board of directors?
+      - What are the responsibilities of the management team?
+      - Who oversees student affairs at the institution?
+      - What is the contact information for the management office?
+      - How are decisions made at the university/college level?
+
+  - intent: student_info
+    examples: |
+      - How many students are allocated for each department?
+      - What is the strength of students?
+
+  - intent: admission_based_on_emcet_rank
+    examples: |
+      - What is the admission process for EAMCET qualified students?
+      - How can I apply for admission using my EAMCET rank?
+      - Is there a separate application process for EAMCET candidates?
+      - What documents are required for admission through EAMCET ranks?
+
+  - intent: faculty_info
+    examples: |
+      - Who is the head of the data science department?
+      - Tell me about the faculty members in the CSE-data science department.
+      - Tell me about the experience of the faculty in the data science department.
+      - Can you provide details about the teaching staff in the data science department?
+
+  - intent: Fee_Structure_emcet
+    examples: |
+      - how much is the tuition fee for CSE for eamcet students?
+      - how much is the tuition fee for CSE(Emerging) for eamcet students?
+      - how much is the tuition fee for CSE(IOT) for eamcet students?
+      - tuition fee for CSE for eamcet students?
+      - tuition fee for cse(emerging) for eamcet students
+      - tuition fee for cse(iot) for eamcet students
+      - tuition fee for cse for eamcet students
+      - tuition fee for CSE(Emerging) for eamcet students
+
+  - intent: Fee_Structure_managment
+    examples: |
+      - how much is the tuition fee for CSE for managment students?
+      - how much is the tuition fee for CSE(Emerging) for managment students?
+      - how much is the tuition fee for Cse(IOT) for managment students?
+      - tuition fee for CSE for managment students
+      - tuition fee for CSE(Emerging) for managment students
+      - tuition fee for Cse(IOT) for managment students
+
+
+  - intent: Emcet_cutoff
+    examples: |
+      - What is the eamcet cutoff for CSE?
+      - what is the eamcet cutoff for Cse(Emerging)?
+      - what is the eamcet cutoff for Cse(IOT)?
+      - eamcet cutoff for CSE
+      - eamcet cutoff for Cse(Emerging)
+      - eamcet cutoff for Cse(IOT)
+
+
+  - intent: Companies
+    examples: |
+      - which companies are recruiting the students?
+      - Can you provide a list of companies actively hiring students?
+      - companies that have internship positions for students?
+
+  - intent: Do
+    examples: |
+      - more information about college

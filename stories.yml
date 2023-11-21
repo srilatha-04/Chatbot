@@ -1,0 +1,56 @@
+version: "2.0"
+
+stories:
+- story: courses path
+  steps:
+    - intent: courses
+    - action: utter_courses
+- story: ask_placements path
+  steps:
+    - intent: ask_placements
+    - action: utter_ask_placements
+
+- story: Companies path
+  steps:
+    - intent: Companies
+    - action: utter_companies
+
+- story: Emcet_cutoff path
+  steps:
+    - intent: Emcet_cutoff
+    - action: utter_Emcet
+
+- story: Fee_Structure_Managment path
+  steps:
+    - intent: Fee_Structure_managment
+    - action: utter_Fee_managment
+
+- story: Fee_Structure_emcet path
+  steps:
+    - intent: Fee_Structure_emcet
+    - action: utter_Fee_emcet
+
+- story: faculty_info path
+  steps:
+    - intent: faculty_info
+    - action: utter_facualty
+
+- story: admission_based_on_emcet_rank path
+  steps:
+    - intent: admission_based_on_emcet_rank
+    - action: utter_admission
+
+- story: student_info path
+  steps:
+    - intent: student_info
+    - action: utter_info
+
+- story: management_info path
+  steps:
+    - intent: management_info
+    - action: utter_minfo
+
+- story: Do path
+  steps: 
+    - intent: Do
+    - action: utter_do
